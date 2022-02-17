@@ -3,5 +3,5 @@ from django import views
 from . import views
 
 urlpatterns = [
-    
+    path('', views.get_all_supers)
 ]
